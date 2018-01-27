@@ -6,15 +6,19 @@ public class Main {
 
 		String stringData = "Hello1";
 		String stringData2 = "OMG";
+		String result = "";
 
 		if(stringData == "Hello") {
-			System.out.println("String present is: " + stringData); }
+			result = "String present is: " + stringData; 
+		} 
 		else if(stringData2 == "OMG"){
-			System.out.println(stringData2 + " Found!!!!");
+			result = stringData2 + " Found!!!!";
 		}
 		else {
-			System.out.println("String Hello is not present");
+			result = "String Hello is not present";
 		}
 		
+		System.out.println(result);
+
 	}
 }
