@@ -2,12 +2,12 @@
 public class RandomClass {
 
 	// Instance variables
-	
+
 	private String someName= "55";
 	private int someNumber; 	
 	private String result = "";
 	// Convert String to int
-	
+
 	// do something Method
 
 	public void doSomeThing() {

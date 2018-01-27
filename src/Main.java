@@ -17,7 +17,7 @@ public class Main {
 		}
 
 		System.out.println(result);
-		
+
 		RandomClass randomClass = new RandomClass();
 		randomClass.doSomeThing();
 
