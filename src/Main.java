@@ -10,15 +10,16 @@ public class Main {
 
 		if(stringData == "Hello") {
 			result = "String present is: " + stringData; 
-		} 
-		else if(stringData2 == "OMG"){
+		} else if(stringData2 == "OMG"){
 			result = stringData2 + " Found!!!!";
-		}
-		else {
+		} else {
 			result = "String Hello is not present";
 		}
-		
+
 		System.out.println(result);
+		
+		RandomClass randomClass = new RandomClass();
+		randomClass.doSomeThing();
 
 	}
 }
